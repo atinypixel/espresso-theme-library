@@ -15,7 +15,7 @@ Final step, just restart Espresso.app and you're all done. In Espresso, go to `P
 
 If you want to update the list with new or updated themes just open up terminal and do the following 
 
-    $ cd ~/Library Application\ Support/Espresso/
+    $ cd ~/Library/Application\ Support/Espresso/
     $ git pull
 
 Restart Espresso.
