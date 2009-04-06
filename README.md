@@ -11,7 +11,7 @@ Since trying out themes is really tedious and annoying. Open up terminal and do 
 * `$ sudo mv "Themes" "Themes-"`
 * `$ git clone git://github.com/atinypixel/espresso-theme-library.git "Themes"`
 
-Final step, just restart Espresso.app and you're all done. In Espresso, going to `Preferences > Colors`, you should now see some new themes.
+Final step, just restart Espresso.app and you're all done. In Espresso, go to `Preferences > Colors`. You should see some new or updated themes.
 
 If you want to update the list with new or updated themes just open up terminal and do the following 
 
