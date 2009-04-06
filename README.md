@@ -7,7 +7,7 @@ This is simply a collection of themes for use in MacRabbit's Espresso. The purpo
 
 Since trying out themes is really tedious and annoying. Open up terminal and do the following.
 
-    $ cd ~/Library/Application\ Support\Espresso\
+    $ cd ~/Library/Application\ Support/Espresso/
     $ sudo mv "Themes" "Themes-"
     $ git clone git://github.com/atinypixel/espresso-theme-library.git "Themes"
 
@@ -15,7 +15,7 @@ Final step, just restart Espresso.app and you're all done. In Espresso, go to `P
 
 If you want to update the list with new or updated themes just open up terminal and do the following 
 
-    $ cd ~/Library Application\ Support\Espresso\
+    $ cd ~/Library Application\ Support/Espresso/
     $ git pull
 
 Restart Espresso.
