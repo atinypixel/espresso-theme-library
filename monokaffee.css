@@ -1,0 +1,148 @@
+/*
+    @theme Monokaffee
+    @override-placeholders html, css, js, php
+*/
+ 
+@base {
+    color: #F8F8F2;
+    background-color: #272822;
+    insertion-point-color: #F8F8F2;
+    selection-background-color: #49483E;
+}
+ 
+* {
+    spell-check: disabled;
+}
+ 
+/* Standard
+----------------------------------------------------*/
+literal.string {
+  color: #E6DB74;
+  spell-check: enabled;
+}
+ 
+* > string.modifier {
+  color: #66D9EF;
+  font-style: italic;
+}
+ 
+literal.regex {
+    color: #E6DB74;
+}
+ 
+literal.numeric {
+    color: #AE81FF;
+}
+ 
+literal.keyword.constant {
+  color: #F92672;
+}
+ 
+literal.keyword.bool {
+    color: #66D9EF;
+}
+ 
+literal.keyword.nothing {
+    color: #66D9EF;
+}
+ 
+literal.escape {
+    color: #A6E22E;
+}
+ 
+identifier.function > name {
+    color: #66D9EF;
+}
+ 
+identifier.type {
+    color: #FD971F;
+    font-weight: bold;
+}
+ 
+identifier.variable.parameter {
+  color: #FD971F;
+}
+ 
+identifier.variable.named-parameter {
+  color: #FD971F;
+}
+ 
+identifier.variable.named-parameter > name {
+  font-style: italic;;
+}
+ 
+identifier.variable.instance {
+    color: #B7DFF8;
+}
+ 
+keyword.control {
+    color: #F92672;
+}
+ 
+keyword.definition {
+    color: #66D9EF;
+    font-style: italic;
+}
+ 
+keyword.modifier {
+    color: #F92672;
+}
+ 
+keyword.constant.other {
+  color: #AE81FF;
+}
+ 
+metadata {
+    color: #716E5B;
+}
+ 
+metadata.comment.documentation {
+  color: #E6DB74;
+  spell-check: enabled;
+}
+ 
+operator {
+    color: #F92672;
+}
+ 
+/* For non-standards */
+ 
+/* CSS
+----------------------------------------------------*/
+selector.css {
+  color: #A6E22E;
+}
+ 
+property-name {
+  color: #FD971F;
+}
+ 
+zkeyword.other.zunit.css {
+  color: #F92672;
+}
+ 
+zconstant.zother.color.rgb-value.css {
+  color: #B7DFF8;
+}
+ 
+zconstant.nzumeric.css {
+  color: #AE81FF;
+}
+ 
+/* HTML/XML
+----------------------------------------------------*/
+tag > name {
+  color: #F92672;
+}
+ 
+tag > attribute-name {
+  color: #A6E22E;
+}
+ 
+tag > attribute-value.string.quoted {
+  color: #E6DB74;
+}
+ 
+comment {
+    color: #716E5B;
+}
